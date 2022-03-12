@@ -6,8 +6,13 @@
     overflow-x: hidden;
 }
 
+p {
+    font-size: 1.4rem
+}
+
+
 .nav {
-    background-color: antiquewhite;
+    background-color: #686773
 }
 
 .nav-container {
@@ -15,7 +20,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    padding: 5px 0px;
+    padding: 10px 0px;
      
 }
 
@@ -26,18 +31,18 @@
 
 .nav-container ol li {
     list-style-type: none;
+    margin-left: 10px;
 
 }
 
 .about-me-section {
-    background-color: aquamarine;
+    background-color: #DCDBF2;
     
 }
 
 
 .main-content {
     background-image: url('./images/photo-1493134799591-2c9eed26201a.jpeg');
-    
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -54,6 +59,13 @@
 .main-container h1 {
     display: block;
     border-bottom: 5px solid whitesmoke;
+    font-family: 'Staatliches', cursive;
+    font-size: 3rem;
+}
+
+.main-container h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 3rem;
 }
 
 .container {
@@ -68,7 +80,8 @@
 .container h2 {
     text-align: center;
     padding: 20px 0px;
-    border-bottom: 3px solid black;
+    border-bottom: 2px solid black;
+    margin-bottom: 40px;
 }
 
 .split {
@@ -85,6 +98,8 @@
     max-height: 250px;
     display: block;
     border-radius: 50%;
+    flex: 1;
+    border: solid black 2px;
 }
 
 .bio {
@@ -92,10 +107,14 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    flex: 2;
+    position: relative;
+    left: 20px;
 }
 
 .resume-section {
-    background-color: blueviolet;
+    background-color: #A2A1B3;
+    
 }
 
 .resume-container {
@@ -110,7 +129,7 @@
 #resume-header {
     text-align: center;
     padding: 20px 0px;
-    border-bottom: 3px solid black;
+    border-bottom: 2px solid black;
 }
 
 .resume {
@@ -121,6 +140,7 @@
 
 .summary {
     flex: 1;
+    line-height: 25px;
     
 }
 
@@ -130,17 +150,38 @@
 
 }
 
+.coding-dojo-link a {
+    color: lightskyblue;
+    text-decoration: none;
+}
+
+.coding-dojo-link a:hover {
+    text-decoration: underline;
+}
+
 .skills {
     flex: 1;
-    text-align: center;
+    position: relative;
+    left: 30px;
+}
+
+.skills p {
+    font-size: 1.3rem;
+    margin-bottom: 5px;
 }
 
 .skills div h2 {
     margin-bottom: 10px;
+    text-align: center;
+}
+
+.skill {
+    color: black;
 }
 
 .project-section {
-    background-color: bisque;
+    background-color: #E7E6FF;
+    
 }
 
 .project-container {
@@ -155,12 +196,14 @@
 .project-container h2 {
     text-align: center;
     padding: 20px 0px;
-    border-bottom: 3px solid black;
+    border-bottom: 2px solid black;
+    margin-bottom: 40px;
 }
 
 .project-box {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     margin: 0px 10px;
     flex-wrap: wrap;
 }
@@ -173,15 +216,40 @@
 }
 
 .project-card img {
-    width: 300px;
-    height: 200px;
+    width: 350px;
+    height: 250px;
     display: block;
 }
 
 .project-card a {
     padding: 20px;
-    background-color: azure;
+    background-color: #A2A1B3;
+    text-decoration: none;
+    color: white;
+    text-align: center;
 }
+
+.footer {
+    background-color: #A2A1B3;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.footer p {
+    font-size: 1rem;
+    margin-right: 15px;
+    border-right: 1px solid black;
+    padding-right: 10px;
+}
+
+.socials a img:hover {
+    border-bottom: 2px solid black;
+    padding-bottom: 2px;
+}
+
 
 .reveal {
     position: relative;
