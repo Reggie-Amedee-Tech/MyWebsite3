@@ -193,6 +193,10 @@ p {
     left: 30px;
 }
 
+.smaller-screen-p {
+    overflow-y: hidden;
+}
+
 .skills p {
     font-size: 1.3rem;
     margin-bottom: 5px;
@@ -360,7 +364,7 @@ p {
     }
 }
 
-@media only screen and (max-width: 386px) {
+@media only screen and (max-width: 386px) and (orientation: portrait) {
     .main-container {
         width: 380px;
     }
