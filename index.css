@@ -378,6 +378,19 @@ p {
         width: 90%;
     }
 
+    .main-container {
+        width: 380px;
+    }
+
+    .main-container h1{
+        font-size: 2rem;
+        
+    }
+
+    .main-container h2 {
+        font-size: 2rem;
+    }
+
     
 }
 
