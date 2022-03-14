@@ -351,9 +351,13 @@ p {
     .project-card {
         padding: 15px;
     }
+
+    .smaller-screen-p {
+        overflow-y: hidden;
+    }
 }
 
-@media only screen and (min-width: 375px) and (max-width: 425px) {
+@media only screen and (min-width: 375px) and (max-width: 456px) {
     .project-card img  {
         width: auto;
     }
@@ -362,6 +366,13 @@ p {
         position: static;
         width: 300px;
     }
+
+    .skills div p {
+        font-size: 1.2rem;
+        width: 90%;
+    }
+
+    
 }
 
 @media only screen and (max-width: 386px) and (orientation: portrait) {
@@ -377,5 +388,28 @@ p {
     .main-container h2 {
         font-size: 2rem;
     }
+
+    
     
 }
+
+@media only screen 
+    and (device-width: 414px) 
+    and (device-height: 896px) 
+    and (-webkit-device-pixel-ratio: 3) { 
+        .main-container {
+            width: 380px;
+        }
+    
+        .main-container h1{
+            font-size: 2rem;
+            
+        }
+    
+        .main-container h2 {
+            font-size: 2rem;
+        }
+
+        
+
+    }
