@@ -353,7 +353,7 @@ p {
 
 }
 
-@media only screen and (min-width: 738px) and (max-width: 1223px) {
+@media only screen and (min-width: 738px) and (max-width: 1223px) and (orientation: portrait) {
     .project-card {
         padding: 15px;
     }
@@ -363,7 +363,7 @@ p {
     }
 }
 
-@media only screen and (min-width: 375px) and (max-width: 456px) {
+@media only screen and (min-width: 375px) and (max-width: 456px) and (orientation: portrait) {
     .project-card img  {
         width: auto;
     }
@@ -398,6 +398,8 @@ p {
     
     
 }
+
+/* Iphone 11 Pro Mac */
 
 @media only screen 
     and (device-width: 414px) 
