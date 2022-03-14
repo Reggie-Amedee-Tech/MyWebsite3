@@ -35,10 +35,18 @@ p {
 
 }
 
+.nav-container ol li a {
+    text-decoration: none;
+}
+
+.nav-container ol li a:hover {
+    text-decoration: underline;
+}
+
 .about-me-section {
     background-color: #DCDBF2;
-    
 }
+
 
 
 .main-content {
@@ -241,6 +249,7 @@ p {
 .project-card img {
     width: 350px;
     height: 250px;
+    min-width: 277.5px;
     display: block;
 }
 
@@ -250,6 +259,10 @@ p {
     text-decoration: none;
     color: white;
     text-align: center;
+}
+
+.project-card a:hover {
+    text-decoration: underline;
 }
 
 .footer-container {
@@ -334,4 +347,31 @@ p {
     .project-card {
         padding: 15px;
     }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 425px) {
+    .project-card img  {
+        width: auto;
+    }
+
+    .bio p {
+        position: static;
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 386px) {
+    .main-container {
+        width: 380px;
+    }
+
+    .main-container h1{
+        font-size: 2rem;
+        
+    }
+
+    .main-container h2 {
+        font-size: 2rem;
+    }
+    
 }
