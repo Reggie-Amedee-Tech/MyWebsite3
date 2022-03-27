@@ -12,7 +12,7 @@ p {
 
 
 .nav {
-    background-color: #686773
+    background-color: #7C7C7D;
 }
 
 .nav-container {
@@ -44,13 +44,12 @@ p {
 }
 
 .about-me-section {
-    background-color: #DCDBF2;
+    background-color: #3D3D3D;
 }
 
 
-
 .main-content {
-    background-image: url('./images/photo-1493134799591-2c9eed26201a.jpeg');
+    background-image: url('./images/photo-1609945648638-cefddce6e6d8.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -72,23 +71,25 @@ p {
 
 .main-container h1 {
     display: block;
-    border-bottom: 5px solid whitesmoke;
+    border-bottom: 5px solid black;
     font-family: 'Staatliches', cursive;
     font-size: 3rem;
+    color: black
 }
 
 .main-container h2 {
     font-family: 'Cormorant Garamond', serif;
     font-size: 3rem;
+    color: black;
 }
 
 .container {
     display: flex;
     flex-direction: column;
-
     max-width: 1200px;
     width: 90%;
     margin: 0 auto;
+    padding: 45px 0px;
 }
 
 .container h2 {
@@ -133,7 +134,7 @@ p {
 }
 
 .resume-section {
-    background-color: #A2A1B3;
+    background-color: #7C7C7D;
     
 }
 
@@ -144,6 +145,7 @@ p {
     max-width: 1200px;
     width: 90%;
     margin: 0 auto;
+    padding: 45px 0px;
 }
 
 #resume-header {
@@ -220,7 +222,7 @@ p {
 }
 
 .project-section {
-    background-color: #E7E6FF;
+    background-color: #3D3D3D;
     
 }
 
@@ -230,7 +232,7 @@ p {
     width: 90%;
     display: flex;
     flex-direction: column;
-
+    padding: 45px 0px;
 }
 
 .project-container h2 {
@@ -265,7 +267,7 @@ p {
 
 .project-card a {
     padding: 20px;
-    background-color: #A2A1B3;
+    background-color: #7C7C7D;
     text-decoration: none;
     color: white;
     text-align: center;
@@ -281,7 +283,7 @@ p {
 }
 
 .footer {
-    background-color: #A2A1B3;
+    background-color: #7C7C7D;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -314,8 +316,6 @@ p {
     border: none;
     text-align: center;
     font-size: 0.8rem;
-    
-    
 }
 
 .reveal {
