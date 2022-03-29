@@ -4,10 +4,11 @@
     box-sizing: border-box;
     color: white;
     overflow-x: hidden;
+    
 }
 
 p {
-    font-size: 1.4rem
+    font-size: 1.4rem;
 }
 
 
@@ -90,6 +91,7 @@ p {
     width: 90%;
     margin: 0 auto;
     padding: 45px 0px;
+    overflow-x: hidden;
 }
 
 .container h2 {
@@ -146,6 +148,7 @@ p {
     width: 90%;
     margin: 0 auto;
     padding: 45px 0px;
+    overflow-x: hidden;
 }
 
 #resume-header {
@@ -172,6 +175,7 @@ p {
     text-align: center;
     margin-bottom: 5px;
     font-family: 'Exo 2', sans-serif;
+    overflow-x: hidden;
 
 }
 
@@ -233,6 +237,7 @@ p {
     display: flex;
     flex-direction: column;
     padding: 45px 0px;
+    overflow-x: hidden;
 }
 
 .project-container h2 {
