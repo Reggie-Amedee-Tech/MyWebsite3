@@ -50,12 +50,11 @@ p {
 
 
 .main-content {
-    background-image: url('./images/banner.jpg');
+    background-image: url('./images/86087.jpeg');
     background-repeat: no-repeat;
+    background-size: cover;
     width: 100vw;
     height: 100vh;
-    
-    
 }
 
 .main-content {
