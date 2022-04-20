@@ -384,6 +384,23 @@ li {
 
 /* Media Queries */
 
+@media only screen and (max-width: 865px) {
+    h4 {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+    li {
+        font-size: 1rem;
+        margin-top: 5px;
+    }
+
+    #job-date {
+        margin-top: 10px;
+    }
+
+}
+
 @media only screen and (max-width: 738px){
     #smaller-screen-img {
         margin: 0 auto;
