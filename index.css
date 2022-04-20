@@ -364,7 +364,7 @@ li {
 }
 
 #signature {
-    color: black;
+    color: whitesmoke;
     border: none;
     text-align: center;
     font-size: 0.8rem;
@@ -507,9 +507,13 @@ li {
     .main-container h2 {
         font-size: 2rem;
     }
+    
+}
 
-    
-    
+@media only screen and (orientation: portrait) {
+    #footer-section {
+        position: static;
+    }
 }
 
 /* Iphone 11 Pro Mac */
