@@ -329,12 +329,13 @@ li {
 .footer-container {
     display: flex;
     flex-direction: column;
+    height: 10vh;
 }
 
 .footer {
     background-color: #3D3D3D;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100px;
@@ -353,6 +354,8 @@ li {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    position: relative;
+    top: 15px;
 }
 
 .socials a img:hover {
