@@ -251,6 +251,15 @@ li {
     margin-bottom: 5px;
 }
 
+.job-title-link a {
+    text-decoration: none;
+    color: lightskyblue;
+}
+
+.job-title-link a:hover {
+    text-decoration: underline;
+}
+
 #resume-top {
     display: flex;
     flex-direction: row;
