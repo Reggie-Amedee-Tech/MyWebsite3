@@ -21,7 +21,6 @@ p {
     justify-content: space-around;
     align-items: center;
     padding: 10px 0px;
-     
 }
 
 .nav-container ol {
@@ -121,18 +120,16 @@ p {
 }
 
 .bio {
-    padding: 23px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    flex: 2;
+    padding: 20px;
     position: relative;
     left: 20px;
-    min-width: 400px;
+    width: 60rem;
+    line-height: 3em;
 }
 
 .bio p {
     font-family: 'Alegreya Sans', sans-serif;
+    font-size: 2rem;
 }
 
 .resume-section {
@@ -401,7 +398,25 @@ li {
 
 /* Media Queries */
 
+@media only screen and (max-width: 1400px) {
+    .bio {
+        margin: 0 auto;
+    }
+    #smaller-screen-img {
+        margin: 0 auto;
+    }
+}
+
 @media only screen and (max-width: 865px) {
+
+    #smaller-screen-img {
+        margin: 0 auto;
+    }
+
+    .resume{
+        display: flex;
+        flex-direction: column;
+    }
 
     #resume-top {
         display: flex;
