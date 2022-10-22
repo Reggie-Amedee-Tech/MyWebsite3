@@ -67,19 +67,16 @@ p {
     align-items: center;
     justify-content: center;
     height: 100vh;
+    width: 100vw;
 }
 
 .main-container h1 {
-    display: block;
-    border-bottom: 5px solid black;
-    font-family: 'Staatliches', cursive;
-    font-size: 3rem;
-    color: black
+    font-size: 9vw;
+    color: black;
 }
 
 .main-container h2 {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 3rem;
+    font-size: 6vw;
     color: black;
 }
 
@@ -104,32 +101,33 @@ p {
 .split {
     display: flex;
     flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
     padding: 40px 0px;
     flex-wrap: wrap;
 }
 
 .split img {
     width: 100%;
-    max-width: 300px;
     height: 100%;
-    max-height: 300px;
-    display: block;
-    border-radius: 50%;
+}
+
+#smaller-screen-img {
+    height: 23rem;
+    width: 20rem;
+    box-shadow: 10px 10px;
+    border: 1px solid black;
     flex: 1;
-    border: solid black 2px;
 }
 
 .bio {
-    padding: 20px;
-    position: relative;
-    left: 20px;
-    width: 60rem;
     line-height: 3em;
-}
-
-.bio p {
-    font-family: 'Alegreya Sans', sans-serif;
-    font-size: 2rem;
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 
 .resume-section {
@@ -304,7 +302,7 @@ li {
 
 .project-box {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     margin: 0px 10px;
     flex-wrap: wrap;
@@ -312,28 +310,47 @@ li {
 
 .project-card {
     display: flex;
-    flex-direction: column;
-    padding: 40px 0px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 0px;
     margin: 0px 5px;
+
+}
+
+.project-card-info{
+    width: 100%;
+    flex: 2;
+    padding: 0px 15px;
+}
+
+.project-info{
+    flex: 1;
 }
 
 .project-card img {
-    width: 350px;
-    height: 250px;
-    min-width: 277.5px;
-    display: block;
+    width: 17rem;
+    height: 14rem;
 }
 
-.project-card a {
-    padding: 20px;
-    background-color: #3D3D3D;
-    text-decoration: none;
-    color: white;
-    text-align: center;
+.project-card-info-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 
-.project-card a:hover {
-    text-decoration: underline;
+.PCI-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.PCI-info{
+    padding: 10px;
+}
+
+.PCI-button {
+    margin: 0 auto;
 }
 
 .footer-container {
@@ -409,12 +426,26 @@ li {
 
 @media only screen and (max-width: 865px) {
 
+    .split {
+        display: flex;
+        flex-direction: column;
+    }
     #smaller-screen-img {
         margin: 0 auto;
     }
 
     .resume{
         display: flex;
+        flex-direction: column;
+    }
+
+    .project-img {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .project-card {
         flex-direction: column;
     }
 

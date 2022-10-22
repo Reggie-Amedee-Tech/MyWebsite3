@@ -26,8 +26,8 @@
     </div>
     <div class="main-content">
         <div class="main-container">
-            <h1>Reginald Jean Amedee</h1>
-            <h2>Portfolio</h2>
+            <h1>Hi, I'm Reginald</h1>
+            <h2>welcome to my portfolio!</h2>
         </div>
 
     </div>
@@ -39,18 +39,21 @@
                     <img src="images/reggie.jpg">
                 </div>
                 <div class="bio">
-                    <p>Hi, my name is Reginald!</p>
-                    <p>I am a full-stack web developer based out of New York City.</p>
-                    <p>My passions are video games and coding and I would love to build
-                        something amazing with you.</p>
-                    <p>Please don't hesitate to reach out to me!</p>
+                    <div class="bio-info">
+                        <p>I am a full-stack web developer based out of New York City.</p>
+                        <p>My passions are video games and coding and I would love to build
+                            something amazing with you.</p>
+                        <p>Please don't hesitate to reach out to me!</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="resume-section" id="resume">
         <div class="resume-container reveal">
-            <h2 id="resume-header"><span class="coding-dojo-link"><a href="https://docs.google.com/document/d/1KCRLwOdKzSpS747zpr1UOg7OmQ9Zi__x" target="_blank">Resume</a></span></h2>
+            <h2 id="resume-header"><span class="coding-dojo-link"><a
+                        href="https://docs.google.com/document/d/1KCRLwOdKzSpS747zpr1UOg7OmQ9Zi__x"
+                        target="_blank">Resume</a></span></h2>
             <div class="resume">
                 <div class="summary">
                     <h2>Summary</h2>
@@ -69,7 +72,7 @@
                     <div>
                         <h2>Skills/Technologies</h2>
                         <p><span class="skill">Languages:</span> JavaScript, HTML, CSS, XML</p>
-                        <p><span class="skill">Libraries:</span> Axios, React.js, REDUX, Express</p>
+                        <p><span class="skill">Libraries:</span> Axios, React.js, REDUX/REDUX Toolkit, Express</p>
                         <p><span class="skill">Databases: </span> MongoDB</p>
                         <p><span class="skill">Skills:</span> Account Management, Google Suite, Salesforce</p>
                     </div>
@@ -85,7 +88,8 @@
                         <div id="resume-top">
                             <div id="job-title">
                                 <ol>
-                                    <h4>Account Manager | <span class="job-title-link" ><a href="https://vimeo.com/" target="_none">Vimeo</a></span></h4>
+                                    <h4>Account Manager | <span class="job-title-link"><a href="https://vimeo.com/"
+                                                target="_none">Vimeo</a></span></h4>
                                 </ol>
                             </div>
                             <div id="job-date">
@@ -109,7 +113,9 @@
                         <div id="resume-top">
                             <div id="job-title">
                                 <ol>
-                                    <h4>Sales Development Representative | <span class="job-title-link"><a href="https://www.dalet.com/" target="_none">Dalet Media Systems</a></span></h4>
+                                    <h4>Sales Development Representative | <span class="job-title-link"><a
+                                                href="https://www.dalet.com/" target="_none">Dalet Media
+                                                Systems</a></span></h4>
                                 </ol>
                             </div>
                             <div id="job-date">
@@ -135,17 +141,77 @@
             <h2>Projects</h2>
             <div class="project-box">
                 <div class="project-card">
-                    <img src="images/STLogo.png">
-                    <a href="https://shielded-citadel-69871.herokuapp.com/" target="_none">Strength-Track App</a>
+                    <div class="project-img">
+                        <img src="images/STLogo.png" alt="project-1" />
+                    </div>
+                    <div class="project-card-info">
+                        <div class="project-card-info-container">
+                            <div class="PCI-title">
+                                <h4>Strength-Tracker</h4>
+                                <h3>2022</h3>
+                            </div>
+                            <div class="PCI-info">
+                                <li>Managed user registration/login/authorization state through redux toolkit</li>
+                                <li>Used bcrypt to manage encryption of sensitive user data throughout login workflow
+                                </li>
+                                <li>Separated localStorage/Cookies to ensure user persistence across sessions</li>
+                                <li>Deployed application using Heroku(PaaS) cloud platform</li>
+                            </div>
+                            <div class="PCI-button">
+                                <a href="https://shielded-citadel-69871.herokuapp.com/" target="_blank">Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img">
+                    <img src="images/Screen Shot 2022-10-18 at 8.49.14 PM.png" alt="project-1" />
+                </div>
+                    <div class="project-card-info">
+                        <div class="project-card-info-container">
+                            <div class="PCI-title">
+                                <h4>Pokedex</h4>
+                                <h3>2022</h3>
+                            </div>
+                            <div class="PCI-info">
+                                <li>Deployed Redux to store and manage React application state and make application changes more predictable</li>
+                                <li>Implemented Thunk middleware to asynchronously fetch data from Pokemon API</li>
+                                <li>Created user interface using React library to produce a single-page web application</li>
+                                <li>Leveraged Axios to make API calls</li>
+                            </div>
+                            <div class="PCI-button">
+                                <a href="https://urpokedex.netlify.app/" target="_blank">Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="project-card">
-                    <img src="images/Screen Shot 2022-10-18 at 8.49.14 PM.png">
-                    <a href="https://urpokedex.netlify.app/" target="_none">Pokedex!</a>
+                    <div class="project-img">
+                    <img src="images/Screen Shot 2022-10-18 at 8.49.51 PM.png" alt="project-1" />
                 </div>
-                <div class="project-card">
-                    <img src="images/Screen Shot 2022-10-18 at 8.49.51 PM.png">
-                    <a href="https://redditprime.netlify.app" target="_none">Reddit-Lite</a>
+                    <div class="project-card-info">
+                        <div class="project-card-info-container">
+                            <div class="PCI-title">
+                                <h4>Reddit-Lite</h4>
+                                <h3>2022</h3>
+                            </div>
+                            <div class="PCI-info">
+                                <li>Deployed ReduxJs/Toolkit to store and manage React application state and make
+                                    application changes more predictable</li>
+                                <li>Added dynamic routing via react-router-dom v6</li>
+                                <li>Used CSS media queries to adjust for component container breaks and made the
+                                    application fully responsive</li>
+                                <li>Encorporated basic color design philosophy to make the website more visually
+                                    pleasant</li>
+                            </div>
+                            <div class="PCI-button">
+                                <a href="https://redditprime.netlify.app/" target="_blank">Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
             </div>
         </div>
 
@@ -164,7 +230,7 @@
             </div>
             <p id="signature">2022-2023 Reginald Jean Amedee</p>
         </div>
-        
+
     </div>
 
 </body>
