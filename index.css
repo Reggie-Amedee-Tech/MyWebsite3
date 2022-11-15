@@ -12,7 +12,7 @@ p {
 
 
 .nav {
-    background-color: #7C7C7D;
+    background-color: #485461;
 }
 
 .nav-container {
@@ -122,7 +122,6 @@ p {
 .bio p {
     line-height: 60px;
     font-size: 1.3rem;
-    text-align: center;
 }
 
 .resume-section {
