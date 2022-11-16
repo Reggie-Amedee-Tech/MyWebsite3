@@ -12,7 +12,8 @@ p {
 
 
 .nav {
-    background-color: #002244;
+    background-color: #28282B;
+    border-bottom: 3px solid white;
 }
 
 .nav-container {
@@ -43,14 +44,16 @@ p {
 }
 
 .about-me-section {
-    background-color: #3D3D3D;
+    background-color: #28282B;
     width: 100vw;
+    
 }
 
 .main-content {
     background-color: #28282B;
     width: 100vw;
     height: 100vh;
+    border-bottom: 3px solid white;
 }
 
 .main-content {
@@ -89,7 +92,7 @@ p {
 .container h2 {
     text-align: center;
     padding: 20px 0px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid white;
     margin-bottom: 40px;
     font-family: 'Exo 2', sans-serif;
 }
@@ -123,7 +126,8 @@ p {
 }
 
 .resume-section {
-    background-color: #7C7C7D;
+    background-color: #28282B;
+    border-top: 3px solid white;
     
 }
 
@@ -141,7 +145,7 @@ p {
 #resume-header {
     text-align: center;
     padding: 20px 0px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid white;
     font-family: 'Exo 2', sans-serif;
 }
 
@@ -150,6 +154,7 @@ p {
     flex-direction: row;
     flex-wrap: wrap;
     padding: 70px 0px;
+    
 }
 
 .summary {
@@ -213,13 +218,15 @@ p {
 }
 
 .skill {
-    color: black;
+    color: white;
+
 }
 
 /* actual resume content */
 
 .actual-resume-section {
-    background-color: #3D3D3D;
+    background-color: #28282B;
+    border-top: 3px solid white;
 }
 
 .actual-resume-container {
@@ -270,7 +277,8 @@ li {
 }
 
 .project-section {
-    background-color: #7C7C7D;
+    background-color: #28282B;
+    border-top: 3px solid white;
     
 }
 
@@ -287,7 +295,7 @@ li {
 .project-container h2 {
     text-align: center;
     padding: 20px 0px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid white;
     margin-bottom: 40px;
     font-family: 'Exo 2', sans-serif;
 }
