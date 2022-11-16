@@ -92,7 +92,7 @@ p {
 .container h2 {
     text-align: center;
     padding: 20px 0px;
-    border-bottom: 2px solid white;
+    border-bottom: 2px dotted white;
     margin-bottom: 40px;
     font-family: 'Exo 2', sans-serif;
 }
@@ -115,7 +115,6 @@ p {
     height: 250px;
     width: 320px;
     border: 1px solid black;
-    border-radius: 50%;
     overflow-x: hidden;
     overflow-y: hidden;
 }
@@ -145,7 +144,7 @@ p {
 #resume-header {
     text-align: center;
     padding: 20px 0px;
-    border-bottom: 2px solid white;
+    border-bottom: 2px dotted white;
     font-family: 'Exo 2', sans-serif;
 }
 
@@ -295,7 +294,7 @@ li {
 .project-container h2 {
     text-align: center;
     padding: 20px 0px;
-    border-bottom: 2px solid white;
+    border-bottom: 2px dotted white;
     margin-bottom: 40px;
     font-family: 'Exo 2', sans-serif;
 }
