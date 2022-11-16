@@ -12,7 +12,7 @@ p {
 
 
 .nav {
-    background-color: #485461;
+    background-color: #002244;
 }
 
 .nav-container {
@@ -48,9 +48,7 @@ p {
 }
 
 .main-content {
-    background-image: url('./images/86087.jpeg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #28282B;
     width: 100vw;
     height: 100vh;
 }
@@ -72,12 +70,12 @@ p {
 
 .main-container h1 {
     font-size: 9vw;
-    color: black;
+    color: whitesmoke;
 }
 
 .main-container h2 {
     font-size: 6vw;
-    color: black;
+    color: whitesmoke;
 }
 
 .container {
@@ -112,7 +110,7 @@ p {
 
 #smaller-screen-img {
     height: 250px;
-    width: 350px;
+    width: 320px;
     border: 1px solid black;
     border-radius: 50%;
     overflow-x: hidden;
