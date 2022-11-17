@@ -54,6 +54,8 @@ p {
     width: 100vw;
     height: 100vh;
     border-bottom: 3px solid white;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .main-content {
