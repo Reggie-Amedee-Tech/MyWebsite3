@@ -10,47 +10,15 @@ p {
     font-size: 1.4rem;
 }
 
-
-.nav {
-    background-color: #28282B;
-    border-bottom: 3px solid white;
-}
-
-.nav-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    padding: 10px 0px;
-}
-
-.nav-container ol {
-    display: flex;
-    flex-direction: row;
-}
-
-.nav-container ol li {
-    list-style-type: none;
-    margin-left: 10px;
-
-}
-
-.nav-container ol li a {
-    text-decoration: none;
-}
-
-.nav-container ol li a:hover {
-    text-decoration: underline;
-}
-
 .about-me-section {
     background-color: #28282B;
     width: 100vw;
-    
 }
 
 .main-content {
-    background-color: #28282B;
+    background-image: url("images/code.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100vw;
     height: 100vh;
     border-bottom: 3px solid white;
@@ -73,15 +41,49 @@ p {
     width: 100vw;
 }
 
-.main-container h1 {
-    font-size: 9vw;
-    color: whitesmoke;
+.code-sample-container {
+    height: 160px;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
-.main-container h2 {
-    font-size: 5vw;
-    color: whitesmoke;
+.code-sample {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
+
+
+.typewriter h1 {
+    color: #fff;
+    font-family: monospace;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid whitesmoke; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .20em; /* Adjust as needed */
+    animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+    font-size: 3vw;
+    font-weight: 200px;
+}
+
+  /* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+  /* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: whitesmoke }
+}
+
+
 
 .container {
     max-width: 1400px;
@@ -116,14 +118,20 @@ p {
 #smaller-screen-img {
     height: 250px;
     width: 320px;
-    border: 1px solid black;
+    border: 1px solid whitesmoke;
     overflow-x: hidden;
     overflow-y: hidden;
+    border-radius: 50%;
+}
+
+.bio {
+    width: 70%;
 }
 
 .bio p {
-    line-height: 60px;
+    line-height: 30px;
     font-size: 1.3rem;
+    color: black;
 }
 
 .resume-section {
@@ -148,6 +156,7 @@ p {
     padding: 20px 0px;
     border-bottom: 2px dotted white;
     font-family: 'Exo 2', sans-serif;
+    background-color: #28282B;
 }
 
 .resume {
@@ -269,12 +278,14 @@ li {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
 }
 
 #job-description {
-    margin-top: 20px;
-    
+    margin-top: 5px;
+}
+
+#resume-header {
+    background-color: #28282B;
 }
 
 .project-section {
@@ -309,39 +320,11 @@ li {
     flex-wrap: wrap;
 }
 
-.project-card {
+.project-card-box {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 10px 0px;
-    margin: 0px 5px;
-
-}
-
-.project-card-info{
-    width: 100%;
-    flex: 2;
-    padding: 0px 15px;
-}
-
-.project-info{
-    flex: 1;
-}
-
-.project-card img {
-    width: 17rem;
-    height: 14rem;
-}
-
-.project-card-video{
-    width: 17rem;
-    height: 14rem;
-}
-
-.project-card-info-container {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+    flex-wrap: wrap;
 }
 
 .PCI-title{
@@ -381,7 +364,6 @@ li {
     justify-content: center;
     align-items: center;
     height: 100px;
-    
 }
 
 .footer p {
@@ -460,8 +442,16 @@ li {
         justify-content: center;
     }
 
+    .project-card-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .project-card {
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     #resume-top {
