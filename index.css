@@ -291,7 +291,6 @@ li {
 .project-section {
     background-color: #28282B;
     border-top: 3px solid white;
-    
 }
 
 .project-container {
@@ -412,6 +411,12 @@ li {
 
 /* Media Queries */
 
+@media only screen and (max-width: 1200px) {
+    #smaller-screen-img{
+        margin-bottom: 20px !important;
+    }
+}
+
 @media only screen and (max-width: 1400px) {
     .bio {
         margin: 0 auto;
@@ -423,12 +428,17 @@ li {
 
 @media only screen and (max-width: 865px) {
 
-    .split {
-        display: flex;
-        flex-direction: column;
+    .bio-p{
+        font-size: 3vw !important;
     }
+
     #smaller-screen-img {
         margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    #project-card{
+        margin-bottom: 20px;
     }
 
     .resume{
