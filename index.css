@@ -350,18 +350,8 @@ li {
     border-radius: 5px;
 }
 
-.footer-container {
-    display: flex;
-    flex-direction: column;
-    
-}
-
 .footer {
     background-color: #3D3D3D;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     height: 100px;
 }
 
@@ -377,8 +367,12 @@ li {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding-top: 15px;
+}
+
+.footer-section p {
     position: relative;
-    top: 5px;
+    top: 10px;
 }
 
 .socials a img:hover {
